@@ -13,7 +13,7 @@ I've now use these scripts almost every single day, definitely every single time
 
 ## Set-up (images coming soon)
 1. Connect 4 jumper wires to the shifter at 4, 6, 8, and 9 according to the shifter's FEMALE pinout. Refer to [here](https://dmadison.github.io/Sim-Racing-Arduino/docs/logitech_shifter.html) for pinout details. (Header socket connectors with jumper wires are really useful  for this).
-2. Connect the respective wires to A0, GND, A2, and 5V. Upload and Arduino sketch and find which COM port serial is running on (OS and USB port specific, Arduino IDE will tell you).
+2. Connect the respective wires to A0, GND, A2, and 5V. Upload the Arduino sketch and find which COM port serial is running on (OS and USB port specific, Arduino IDE will tell you).
 3. Update the Python companion file to read that COM port, then run it. When shifting it should show the gear in the terminal as well as output a key to bind with.
 
 If you go to 1 and it says 6, you likely wired your power and ground backwards. It reverses the analogue readings.
